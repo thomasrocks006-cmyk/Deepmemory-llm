@@ -1,0 +1,59 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Google AI & Cloud
+google-generativeai==0.3.1
+google-cloud-aiplatform==1.40.0
+
+# LangChain ecosystem
+langchain==0.1.0
+langchain-google-genai==0.0.6
+langchain-community==0.0.13
+
+# Vector database
+pinecone-client==3.0.0
+
+# Graph database
+neo4j==5.16.0
+
+# PostgreSQL
+psycopg[binary]==3.1.16
+pgvector==0.2.4
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# Async support
+httpx==0.26.0
+aiofiles==23.2.1
+websockets==12.0
+
+# Data processing
+pandas==2.1.4
+numpy==1.26.3
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# NLP & embeddings
+sentence-transformers==2.3.1
+tiktoken==0.5.2
+
+# Utilities
+python-json-logger==2.0.7
+tenacity==8.2.3
+click==8.1.7
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
+black==23.12.1
+ruff==0.1.11
+mypy==1.8.0
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
